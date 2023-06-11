@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Tangerine&display=swap");
+
+.task {
+  font-family: "Bad Script", cursive;
+  font-size: 2rem;
+  color: black;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: lightgrey;
+}
+
+.todoContainer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.todoForm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.todoListContainer {
+  margin: 0 auto;
+  width: fit-content;
+  min-width: 25%;
+  max-width: 50%;
+  text-align: left;
+  overflow: auto;
+  /* overflow-y: auto; */
+}
+
+.filterButton{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+  padding: 4px 7px;
+}
+
+.filterSpan{
+  font-size: 1.3rem;
+}
+
+
+.todoItem {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.deleteButton {
+  margin: 15px -10px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.deleteButton:hover {
+  color: red;
+}
+
+.editButton {
+  margin: 15px 10px 5px 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.editButton:hover {
+  color: green;
+}
+
+.todoInput {
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  padding: 0 5px;
+  font-size: 1rem;
+}
+
+.todoButton {
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(225, 224, 224);
+}
+
+.todoButton:hover {
+  box-shadow: 1px 1px 5px black;
+}
+
+.todoButton:active {
+  box-shadow: 1px 1px 2px black;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
