@@ -2,10 +2,13 @@ import { combineReducers, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import todoReducer from "./features/todo/todoReducer";
 
-const store = createStore(combineReducers({
+const store = createStore(
+  combineReducers({
     todo: todoReducer,
-}), composeWithDevTools())
+  }),
+  composeWithDevTools()
+);
 
-export default store
+export default store;
 
-export type RootState = ReturnType<typeof store.getState>
+export type RootState = ReturnType<typeof store.getState>;

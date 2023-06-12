@@ -31,10 +31,9 @@
   max-width: 50%;
   text-align: left;
   overflow: auto;
-  /* overflow-y: auto; */
 }
 
-.filterButton{
+.filterButton {
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -42,10 +41,9 @@
   padding: 4px 7px;
 }
 
-.filterSpan{
+.filterSpan {
   font-size: 1.3rem;
 }
-
 
 .todoItem {
   display: flex;

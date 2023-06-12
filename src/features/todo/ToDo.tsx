@@ -141,9 +141,9 @@ export default function ToDo(): JSX.Element {
                 style={{ backgroundColor: "lightgray", color: "black" }}
               />
               <p
-                              data-tooltip-id="taskTip"
-                              data-tooltip-content="Click to change task status"
-                              data-tooltip-place="bottom"
+                data-tooltip-id="taskTip"
+                data-tooltip-content="Click to change task status"
+                data-tooltip-place="bottom"
                 onClick={() => {
                   todo.isDone = !todo.isDone;
                   setIsDone(todo.isDone);
