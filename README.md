@@ -3,9 +3,9 @@ This program was developed using React in combination with TypeScript and Redux.
 
 Link: [click here to open on GitPages]()
 
-### **To Do List** *is an application that helps users manage their tasks and organize them in a convenient list. It provides an intuitive interface that allows users to add, edit, delete, and filter tasks based on their status.*
+**To Do List** *is an application that helps users manage their tasks and organize them in a convenient list. It provides an intuitive interface that allows users to add, edit, delete, and filter tasks based on their status.*
 
-### *Key features of the To Do List application include:*
+*Key features of the To Do List application include:*
 
 + *Task Addition: Users can add new tasks to the list.*
 
