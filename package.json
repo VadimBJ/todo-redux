@@ -1,5 +1,6 @@
 {
   "name": "todo-redux",
+  "homepage": "https://vadimbj.github.io/todo-redux/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

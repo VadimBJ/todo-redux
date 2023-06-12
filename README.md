@@ -1,7 +1,7 @@
 # To Do List
 This program was developed using React in combination with TypeScript and Redux.
 
-Link: [click here to open on GitPages]()
+Link: [click here to open on GitPages](https://vadimbj.github.io/todo-redux/)
 
 **To Do List** *is an application that helps users manage their tasks and organize them in a convenient list. It provides an intuitive interface that allows users to add, edit, delete, and filter tasks based on their status.*
 
