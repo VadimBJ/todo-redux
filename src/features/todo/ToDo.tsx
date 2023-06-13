@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Action from "./types/Action";
 import { RootState } from "../../Store";
@@ -11,11 +11,13 @@ export default function ToDo(): JSX.Element {
   const dispatch = useDispatch();
   const [description, setDescription] = useState("");
   const [editDescription, setEditDescription] = useState("");
-  const [isDone, setIsDone] = useState(false);
+  const [isDone, setIsDone] = useState(true);
   const [filter, setFilter] = useState<"all" | "true" | "false">("all");
   const [edit, setEdit] = useState<number>(-1);
   const toDoList = useSelector((state: RootState) => state.todo);
   const toDoListLength = useSelector((state: RootState) => state.todo.length);
+
+  useEffect(() => {},[isDone]);
 
   const handleEdit = (event: React.FormEvent): void => {
     event.preventDefault();
@@ -145,8 +147,8 @@ export default function ToDo(): JSX.Element {
                 data-tooltip-content="Click to change task status"
                 data-tooltip-place="bottom"
                 onClick={() => {
+                  setIsDone(!isDone);
                   todo.isDone = !todo.isDone;
-                  setIsDone(todo.isDone);
                 }}
                 className={todo.isDone ? "task completed" : "task"}
               >
