@@ -84,11 +84,11 @@
 }
 
 .todoButton {
-  height: 40px;
+  height: 45px;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 1rem;
-  border: none;
+  border: 1px solid grey;
   cursor: pointer;
   background-color: rgb(225, 224, 224);
 }
