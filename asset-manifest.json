@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/todo-redux/static/css/main.d7351348.css",
-    "main.js": "/todo-redux/static/js/main.1ead5e8c.js",
-    "static/media/fon.jpg": "/todo-redux/static/media/fon.1f9105b0d1e07e52c589.jpg",
-    "index.html": "/todo-redux/index.html",
-    "main.d7351348.css.map": "/todo-redux/static/css/main.d7351348.css.map",
-    "main.1ead5e8c.js.map": "/todo-redux/static/js/main.1ead5e8c.js.map"
+    "main.css": "/todo-redux-firebase/static/css/main.fba49b32.css",
+    "main.js": "/todo-redux-firebase/static/js/main.1cf31242.js",
+    "static/media/fon.jpg": "/todo-redux-firebase/static/media/fon.1f9105b0d1e07e52c589.jpg",
+    "static/media/firebase1.png": "/todo-redux-firebase/static/media/firebase1.6dbe0bbebdc40f9b9d2f.png",
+    "index.html": "/todo-redux-firebase/index.html",
+    "main.fba49b32.css.map": "/todo-redux-firebase/static/css/main.fba49b32.css.map",
+    "main.1cf31242.js.map": "/todo-redux-firebase/static/js/main.1cf31242.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7351348.css",
-    "static/js/main.1ead5e8c.js"
+    "static/css/main.fba49b32.css",
+    "static/js/main.1cf31242.js"
   ]
 }
